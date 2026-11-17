@@ -1,0 +1,15 @@
+{
+  "name": "serverest-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automacao E2E e API - Desafio Mouts TI",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:e2e": "cypress run --spec 'cypress/e2e/frontend/**/*.cy.js'",
+    "cy:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^15.0.0"
+  }
+}
